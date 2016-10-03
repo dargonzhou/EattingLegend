@@ -1,0 +1,57 @@
+html, body, p, h1, h2, h3, h4, h5, h6, ul, ol, dl, li, dt, dd, form, fieldset, legend, table {
+  margin: 0;
+  padding: 0; }
+
+ul, ol, li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: #000; }
+
+img {
+  border: none;
+  display: block; }
+
+input {
+  outline: none; }
+
+em, i {
+  font-style: normal; }
+
+b, strong {
+  font-weight: normal; }
+
+#thisBottom {
+  margin: 0 auto;
+  background: #414141;
+  width: 100%;
+  height: auto; }
+  #thisBottom .bottom {
+    width: 1180px;
+    margin: 0 auto;
+    padding-top: 20px;
+    padding-bottom: 30px; }
+    #thisBottom .bottom .copyright {
+      margin: 0 auto;
+      width: 646px;
+      height: 90px;
+      color: #dee4e4;
+      font-size: 12px; }
+      #thisBottom .bottom .copyright p {
+        text-align: center;
+        line-height: 20px; }
+        #thisBottom .bottom .copyright p b {
+          text-decoration: underline; }
+    #thisBottom .bottom .CopyImg {
+      overflow: hidden;
+      margin: 0 auto; }
+      #thisBottom .bottom .CopyImg li {
+        width: 120px;
+        height: 40px;
+        margin-right: 8px;
+        float: left; }
+      #thisBottom .bottom .CopyImg .Copy_li {
+        margin: 0; }
+
+/*# sourceMappingURL=index.css.map */

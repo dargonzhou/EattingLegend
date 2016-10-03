@@ -1,0 +1,48 @@
+$gray:#414141;
+html,body,p,h1,h2,h3,h4,h5,h6,ul,ol,dl,li,dt,dd,form,fieldset,legend,table{margin:0;padding:0;}
+ul,ol,li{list-style:none;}
+a{text-decoration:none;color:#000;}
+img{border:none;display:block;}
+input{outline:none;}
+em,i{font-style:normal;}
+b,strong{font-weight:normal;}
+
+#thisBottom{
+  margin:0 auto;
+  background:$gray;
+  width:100%;
+  height:auto;
+  .bottom{
+    width: 1180px;
+    margin: 0 auto;
+    padding-top:20px;
+    padding-bottom: 30px;
+    .copyright{
+      margin: 0 auto;
+      width:646px;
+      height:90px;
+      color: #dee4e4;
+      font-size:12px;
+      p{
+        text-align: center;
+        line-height:20px;
+        b{
+            text-decoration: underline;
+        }
+      }
+    }
+    .CopyImg{
+      overflow: hidden;
+      margin: 0 auto;
+      li{
+        width:120px;
+        height:40px;
+        margin-right:8px;
+        float:left;
+      }
+      .Copy_li{
+        margin:0;
+      }
+    }
+  }
+}
